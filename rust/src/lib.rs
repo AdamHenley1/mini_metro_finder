@@ -1,7 +1,9 @@
 pub mod api;
 mod frb_generated;
 
-
+/* Ignore this function, it's just here
+ * for testing purposes.
+ */ 
 fn rust_main(name: String) -> String {
     let mut message = String::from("hello, ");
     message.push_str(&name);
