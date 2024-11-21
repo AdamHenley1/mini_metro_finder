@@ -1,0 +1,6 @@
+{
+  "appTitle": "mini_metro_finder",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
