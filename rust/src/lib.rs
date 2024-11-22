@@ -1,3 +1,11 @@
+/* We're using adjacency matrices
+ * because they're really cool and I love
+ * them, but only if they're square matrices,
+ * because then the maths with them is way
+ * easier, and I have had some really bad
+ * experiences trying to do ring theory stuff
+ * with non-square matrices and vectors and stuff.
+ */ 
 pub mod api;
 mod frb_generated;
 
