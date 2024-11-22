@@ -9,6 +9,13 @@
 pub mod api;
 mod frb_generated;
 
+/* We hope that there are less than 100 edges
+ * connected to a single vertex.
+ */
+type Vertex = Vec<u8>;
+type Matrix = Vec<Vertex>;
+
+
 /* Ignore this function, it's just here
  * for testing purposes.
  */
